@@ -24,7 +24,7 @@ class Bilibili:
         self.size = []
         self.headers = {
             "User-Agent": "Mozilla/5.0(Windows NT 10.0;WOW64) AppleWebKit/537.36(KHTML,likeGecko)Chrome/63.0.3239.132Safari/537.36",
-            "cookie": "buvid3=560A8DC3-6376-4CF0-9B32-1D753924A397143107infoc; rpdid=|(um~JY|||)|0J'ulm)|uJkl); LIVE_BUVID=AUTO4115999886687727; buvid_fp=560A8DC3-6376-4CF0-9B32-1D753924A397143107infoc; _uuid=6D6FE884-C81B-332E-5E85-D5E4A05DCDE562033infoc; SESSDATA=b7fbc2f7,1653551383,cf57d*b1; bili_jct=a95e28622a291692274c33218d81f603; DedeUserID=526132913; DedeUserID__ckMd5=38a60a1a2d4c4d3b; sid=4kc0khpi; video_page_version=v_old_home; i-wanna-go-back=-1; b_ut=5; CURRENT_BLACKGAP=0; fingerprint=c60857466f179496a5c1db8cc759e921; fingerprint3=c4d6a08d29c3e0aa7528d2ba04543928; fingerprint_s=1d5794b6b8c7563a3f4657a28d89304a; bp_t_offset_526132913=607359837961319496; bp_video_offset_526132913=607388197624329700; buvid_fp_plain=EA66168A-2B62-835D-8321-93B83599DAF261112infoc; blackside_state=0; CURRENT_QUALITY=120; b_lsid=3DE64B13_17DEC31DAE3; innersign=1; CURRENT_FNVAL=80; PVID=2",
+            "cookie": "", #在此填写cookie
             'referer': 'https://www.bilibili.com/'
         }
         self.chunk_size = 1024 * 4
