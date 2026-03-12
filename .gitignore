@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+cookie.txt
+*.flv
+*.mp4
+*.ass
